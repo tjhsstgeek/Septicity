@@ -1,0 +1,77 @@
+- File Information
+03 - 29 - 2002
+
+Title : Qbeast
+Filename : qbeast_nomusic.pk3
+Author : Quint (Marco Quintavalle)
+Email Address : m.quintavalle@libero.it
+Web Site : www.planetquake.com/quint
+
+Installation : 
+Unzip and place qbeast_nomusic.pk3 in your 
+Quake3 -> baseq3 
+The map should now be accessible in the Multiplayer menu or by                         typing in the console:
+
+\map qbeast
+
+There are also 2 wallpapers in the this .zip
+to thank you for the time you spent downloading this level.
+
+Play Information ---------------------------------------------------------------
+
+Description : This level has been thought to take part to the Nunuk's geometry
+competition 2002 edition (www.planetquake.com/nunuk).
+As the name of the comp already suggests, I had to
+focus on the architecture of the map, trying to make amazing shapes and
+original structures. A maximum of 12 textures has been allowed.
+The map is a space tourney map.
+Ah... I must advice you... Klesk plays the level like a god.
+
+Player Base : Free-For-All, Tourney
+Number of Players : 2-4
+Best Player Load : 2
+New textures : yes, made by Sock for the competition www.planetquake.com/simland
+New shaders : Yes, the jumps.
+New skybox  : Yes, made by me, very minimalist.
+New music   : Not in this version.
+
+Construction----------------------------------------------------
+
+Base : New level from scratch
+Construction Time : 20 days brushing, 25 days for beta test and optimization.
+Programs used : Q3Radiant202, Q3build, Adobe Illustrator
+Adobe Photoshop, Q3Ase, my brain.
+Compile time: 8 hours
+
+Credits ----------------------------------------------------------
+
+First of all, thanks to Nunuk and Sock for the cool competition.
+Then, thanks to Cardigan for inspiration (have you ever played
+Scorpion... no? Too bad.)
+Inspiration came also from the master H.R.Giger.  
+Here is a list of the private team of testers, not in a particular order:
+
+HeFFalump
+Mikey  
+Pete Parisi
+ButterB
+Cardigan
+Octovus
+Sheepslayer
+Captain    
+
+Lord Mason : for his wallpaper.
+
+My friends here at office, thx for be so patient!
+Id : for Quake3
+My mother for have compiled me! Nice geometry mammy!
+
+Copyright / Permissions---------------------------------------------------------
+
+Authors May Not decompile the BSP as a base to build additional levels
+without previous Quint's permission.
+
+You MAY distribute this pak file and/or its contents by any 
+electronic means, provided you leave the contents unaltered and 
+include this text file, also unaltered.  This file may not 
+be commercially exploited in any way.
