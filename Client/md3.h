@@ -1,6 +1,15 @@
 #ifndef __MD3_H__
 #define __MD3_H__
 
+#include <stdint.h>
+#include <stdio.h>
+
+#define MD3_STREAM_NOT_FOUND -0x1
+#define MD3_UNEXPECTED_EOF -0x2
+#define MD3_FAILED_ALLOC -0x3
+#define MD3_BAD_HEADER -0x4
+#define MD3_FRAME_MISMATCH -0x5
+
 typedef struct {
 	float x,y,z;
 } VEC3;
@@ -48,6 +57,16 @@ typedef struct {
 	Surface **surfaces;
 } MD3_Header;
 typedef MD3_Header MD3;
-extern MD3 *load_md3(const char *);
-extern void free_md3(MD3 *);
+
+extern void md3_clean_safe(MD3 *);
+extern void md3_clean(MD3 *);
+extern void md3_free_safe(MD3 *);
+extern void md3_free(MD3 *);
+extern MD3 *md3_create();
+extern uint32_t md3_stream_search_file(FILE *);
+extern uint32_t md3_stream_search_buffer(char *,uint32_t);
+extern int md3_stream_check_file(FILE *, uint32_t);
+extern int md3_stream_check_buffer(char *, uint32_t, uint32_t);
+extern int md3_stream_read_file(FILE *, uint32_t, MD3 *);
+extern int32_t md3_stream_read_buffer(char *, uint32_t, uint32_t, MD3 *);
 #endif
